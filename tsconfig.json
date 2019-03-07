@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "typeRoots": ["typings", "node_modules/@types"]
+  },
+  "include": ["src/**/*", "./typing.d.ts", "example/**/*"],
+  "exclude": ["node_modules"]
+}
