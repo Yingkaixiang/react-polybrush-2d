@@ -17,7 +17,7 @@ import PolyBrush2D from "react-polybrush-2d";
 
 const App = () => {
   return (
-    <Demo
+    <PolyBrush2D
       width={500}
       height={300}
       background={"#666"}
