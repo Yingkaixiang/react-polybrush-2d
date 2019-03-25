@@ -28,13 +28,9 @@ declare module "zrender" {
     on: (
       eventName: string,
       eventHandler: EventHandler,
-      context: object,
+      context: object
     ) => void;
-    off: (
-      eventName: string,
-      eventHandler: EventHandler,
-      context: object,
-    ) => void;
+    off: (eventName: string, eventHandler: EventHandler) => void;
   }
 
   interface initOpts {
